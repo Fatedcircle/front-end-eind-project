@@ -1,0 +1,42 @@
+[
+  {
+      "id": 1,
+      "naam": "Product 1",
+      "kortebeschrijving": "Dit is een voorbeeldproduct.",
+      "prijs": 19,
+      "afbeeldingen": ["https://fastly.picsum.photos/id/1042/200/200.jpg?hmac=mQH7yDLNQEw36Ill40iNnDXBhGWD744fWhQHOi2oJcA"],
+      "hoeveelheid": 5
+  },
+  {
+      "id": 2,
+      "naam": "Product 2",
+      "kortebeschrijving": "Dit is een ander voorbeeldproduct.",
+      "prijs": 29,
+      "afbeeldingen": ["https://fastly.picsum.photos/id/457/200/200.jpg?hmac=joY8RjIQZTMCo8z_GiovGX8NznT0ZEznz7f1Xy0NQQg"],
+      "hoeveelheid": 5
+  },
+  {
+      "id": 3,
+      "naam": "Product 3",
+      "kortebeschrijving": "Een derde voorbeeldproduct.",
+      "prijs": 14,
+      "afbeeldingen": ["https://fastly.picsum.photos/id/634/200/200.jpg?hmac=3WUmj9wMd1h3UZICk1C5iydU5fixjx0px9jw-LBezgg"],
+      "hoeveelheid": 5
+  },
+  {
+      "id": 4,
+      "naam": "Product 4",
+      "kortebeschrijving": "Nog een voorbeeldproduct.",
+      "prijs": 24,
+      "afbeeldingen": ["https://fastly.picsum.photos/id/59/200/200.jpg?hmac=q9DbuoFh1L_NWnGk3AGdzuEOlg5bBW4JmBSgWmQdT74"],
+      "hoeveelheid": 5
+  },
+  {
+      "id": 5,
+      "naam": "Product 5",
+      "kortebeschrijving": "Het laatste voorbeeldproduct.",
+      "prijs": 9,
+      "afbeeldingen": ["https://fastly.picsum.photos/id/361/200/200.jpg?hmac=8pPTUqe61Cxj4FYarGS9vZKtqUSjAzxOQJ0zBIHq28o"],
+      "hoeveelheid": 5
+  }
+]

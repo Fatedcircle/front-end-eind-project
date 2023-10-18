@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games webshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="#">Navbar</a>
+                </div>
+
+                <div>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="admin.html">Admin</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <div class="container mt-5">
+            <h1>Nieuw product toevoegen</h1>
+
+            <!-- Toevoegen van een formulier om een nieuw product toe te voegen -->
+            <form id="addProductForm" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="naam" class="form-label">Productnaam</label>
+                    <input type="text" class="form-control" id="naam" name="naam" required>
+                </div>
+                <div class="mb-3">
+                    <label for="korteBeschrijving" class="form-label">Korte beschrijving</label>
+                    <textarea class="form-control" id="korteBeschrijving" name="korteBeschrijving" rows="3"
+                        required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="langeBeschrijving" class="form-label">Uitgebreide beschrijving</label>
+                    <textarea class="form-control" id="langeBeschrijving" name="langeBeschrijving" rows="6"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="prijs" class="form-label">Productprijs</label>
+                    <input type="number" class="form-control" id="prijs" name="prijs" step="0.01" required>
+                </div>
+                <div class="mb-3">
+                    <label for="hoeveelheid" class="form-label">Hoeveelheid</label>
+                    <input type="number" class="form-control" id="hoeveelheid" name="hoeveelheid" required>
+                </div>
+                <div class="mb-3">
+                    <label for="opties" class="form-label">Opties (voeg optionele opties toe)</label>
+                    <select class="form-select" id="opties" name="opties" multiple>
+                        <option value="optie1">Optie 1</option>
+                        <option value="optie2">Optie 2</option>
+                        <!-- Voeg hier meer opties toe -->
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="image1" class="form-label">Afbeelding URL (verplicht)</label>
+                    <input type="url" class="form-control" id="image1" name="image1" required>
+                </div>
+                <div class="mb-3">
+                    <label for="image2" class="form-label">Afbeelding 2 URL (optioneel)</label>
+                    <input type="url" class="form-control" id="image2" name="image2">
+                </div>
+                <div class="mb-3">
+                    <label for="image3" class="form-label">Afbeelding 3 URL (optioneel)</label>
+                    <input type="url" class="form-control" id="image3" name="image3">
+                </div>
+                <div class="mb-3">
+                    <label for="image4" class="form-label">Afbeelding 4 URL (optioneel)</label>
+                    <input type="url" class="form-control" id="image4" name="image4">
+                </div>
+                <div class="mb-3">
+                    <label for="image5" class="form-label">Afbeelding 5 URL (optioneel)</label>
+                    <input type="url" class="form-control" id="image5" name="image5">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Product toevoegen</button>
+            </form>
+        </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                crossorigin="anonymous"></script>
+            <script src="nieuw-product.js"></script>
+    </body>
+
+</html>
