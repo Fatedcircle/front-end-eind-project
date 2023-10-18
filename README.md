@@ -1,7 +1,7 @@
 # Gaming webshop
 
 Ik wil het normale certificaat.<br>
-je kan het hier bezoeken : [project](https://fatedcircle.github.io/front-end-eind-project/)
+je kan het hier bezoeken : [project](https://fatedcircle.github.io/front-end-eind-project/)<br>
 Je kan dit lokaal gebruiken door een xampp server op te zetten en dte navigeren naar localhost/{naam van de map}
 
 ## hoe te gebruiken
