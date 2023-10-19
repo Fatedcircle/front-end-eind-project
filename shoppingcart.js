@@ -85,13 +85,25 @@ class ShoppingCart {
         this.alertMessage.style.display = 'block';
         this.renderCart(); // Herrender de lege winkelwagen
     }
+    createClearCartButton() {
+        const clearCartButton = document.createElement('button');
+        clearCartButton.textContent = 'Winkelwagen leegmaken';
+        clearCartButton.addEventListener('click', () => this.clearCart());
+        document.body.appendChild(clearCartButton);
+    }
 
+    clearCart() {
+        localStorage.removeItem('cart');
+        this.cartItems = [];
+        this.renderCart(); // Herrender de lege winkelwagen
+    }
 
 
     initialize() {
         this.renderCart();
         this.calculateTotalPrice();
         this.placeOrderButton.addEventListener('click', () => this.placeOrder());
+        this.createClearCartButton();
     }
 }
 
